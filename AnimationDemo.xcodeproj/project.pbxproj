@@ -14,6 +14,10 @@
 		9E3F84A7234ECD520088FB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F84A5234ECD520088FB9B /* LaunchScreen.storyboard */; };
 		9E3F84B2234ECD520088FB9B /* AnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F84B1234ECD520088FB9B /* AnimationDemoTests.swift */; };
 		9E3F84BD234ECD520088FB9B /* AnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F84BC234ECD520088FB9B /* AnimationDemoUITests.swift */; };
+		9E3F84CB234ECD6F0088FB9B /* StarAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F84CA234ECD6F0088FB9B /* StarAnimationView.swift */; };
+		9E3F84CD234ECDB60088FB9B /* ProgressAnimaitonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F84CC234ECDB60088FB9B /* ProgressAnimaitonLabel.swift */; };
+		9E3F84F1234ED22A0088FB9B /* 文档.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F84F0234ED2290088FB9B /* 文档.rtf */; };
+		9E3F84F3234EED360088FB9B /* CircularAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F84F2234EED360088FB9B /* CircularAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9E3F84B8234ECD520088FB9B /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3F84BC234ECD520088FB9B /* AnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITests.swift; sourceTree = "<group>"; };
 		9E3F84BE234ECD520088FB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3F84CA234ECD6F0088FB9B /* StarAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAnimationView.swift; sourceTree = "<group>"; };
+		9E3F84CC234ECDB60088FB9B /* ProgressAnimaitonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressAnimaitonLabel.swift; sourceTree = "<group>"; };
+		9E3F84F0234ED2290088FB9B /* 文档.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "文档.rtf"; sourceTree = "<group>"; };
+		9E3F84F2234EED360088FB9B /* CircularAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				9E3F849C234ECD510088FB9B /* AppDelegate.swift */,
 				9E3F849E234ECD510088FB9B /* ViewController.swift */,
+				9E3F84CA234ECD6F0088FB9B /* StarAnimationView.swift */,
+				9E3F84F2234EED360088FB9B /* CircularAnimationView.swift */,
+				9E3F84CC234ECDB60088FB9B /* ProgressAnimaitonLabel.swift */,
+				9E3F84F0234ED2290088FB9B /* 文档.rtf */,
 				9E3F84A0234ECD510088FB9B /* Main.storyboard */,
 				9E3F84A3234ECD520088FB9B /* Assets.xcassets */,
 				9E3F84A5234ECD520088FB9B /* LaunchScreen.storyboard */,
@@ -231,6 +243,7 @@
 			files = (
 				9E3F84A7234ECD520088FB9B /* LaunchScreen.storyboard in Resources */,
 				9E3F84A4234ECD520088FB9B /* Assets.xcassets in Resources */,
+				9E3F84F1234ED22A0088FB9B /* 文档.rtf in Resources */,
 				9E3F84A2234ECD510088FB9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3F84CD234ECDB60088FB9B /* ProgressAnimaitonLabel.swift in Sources */,
 				9E3F849F234ECD510088FB9B /* ViewController.swift in Sources */,
+				9E3F84F3234EED360088FB9B /* CircularAnimationView.swift in Sources */,
+				9E3F84CB234ECD6F0088FB9B /* StarAnimationView.swift in Sources */,
 				9E3F849D234ECD510088FB9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
